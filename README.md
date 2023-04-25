@@ -12,6 +12,10 @@ le prototype consiste à créer un blog
   - commit : projet laravel vide
 - Installation des packages
   - infyomlabs/laravel-ui-adminlte
+- Création de branch : lab-laravel
+- Création de la base de données 
+- Création des interfaces CRUD
+
 
 
 ## Analyse technique
@@ -26,12 +30,29 @@ le prototype consiste à créer un blog
 ### infyomlabs/adminlte-templates
 
 ```bash
+
 composer require infyomlabs/laravel-ui-adminlte
+composer require laracasts/flash
+composer require laravelcollective/html
+composer require infyomlabs/adminlte-templates
+
 php artisan ui adminlte --auth
 npm install
 npm run build
 ```
 
+
+## Install
+
+````bash
+npm install
+composer install
+php artisan migrate:fresh
+php artisan db:seed
+npm run build
+
+
+````
 
 
 
