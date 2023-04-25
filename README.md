@@ -11,12 +11,28 @@ le prototype consiste à créer un blog
   - Création d'un projet laravel version  10 
   - commit : projet laravel vide
 - Installation des packages
-
+  - infyomlabs/laravel-ui-adminlte
 
 
 ## Analyse technique
 
 ### Architecture 3-tiers
+
+
+
+
+
+## Install packages 
+### infyomlabs/adminlte-templates
+
+```bash
+composer require infyomlabs/laravel-ui-adminlte
+php artisan ui adminlte --auth
+npm install
+npm run build
+```
+
+
 
 
 ### Packages Laravel
