@@ -4,12 +4,15 @@ le prototype consiste à créer un blog
 
 ## Travail à faire 
 
-- Création du projet 
-  - Création d'un projet laravel version  10 
-  - commit : projet laravel vide
 - Utilisation de la présentation google slide 
 - Cas d'utilisation
 - Diagramme de classe
+- Création du projet 
+  - Création d'un projet laravel version  10 
+  - commit : projet laravel vide
+- Installation des packages
+
+
 
 ## Analyse technique
 
